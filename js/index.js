@@ -973,7 +973,7 @@ function import_teams_preview(){
     document.getElementById("importing").innerHTML = ""
     if(link.includes("import.html") == true){
         //gndatabase import
-        var remove = link.slice(link.search("shervain123.github.io/gndatabase"),link.length)
+        var remove = link.slice(link.search("lkro13.github.io/gndatabase"),link.length)
         var strip = link.slice(link.search("import.html")+12,link.length)
         var split_in = searchall(";",strip)
         var cha_in = strip.slice(split_in[2]+4,strip.search("wea"))
@@ -1045,7 +1045,7 @@ function parse_import_teams(remove=0){
     }else{
         if(link.includes("import.html") == true){
             //gndatabase import
-            var remove = link.slice(link.search("shervain123.github.io/gndatabase"),link.length)
+            var remove = link.slice(link.search("lkro13.github.io/gndatabase"),link.length)
             var strip = link.slice(link.search("import.html")+12,link.length)
             var split_in = searchall(";",strip)
             var cha_in = strip.slice(split_in[2]+4,strip.search("wea"))
@@ -1148,7 +1148,7 @@ function import_teams_container(link){
             //input
                 import_input.type = "text"
                 import_input.id="import"
-                import_input.placeholder = "shervain123.github.io/gndatabase?import..."
+                import_input.placeholder = "lkro13.github.io/gndatabase?import..."
                 import_input.classList.add("roboto-mono")
                 import_input.classList.add("export-input")
                 import_input.onkeyup = new Function("event", "import_teams_preview()")
@@ -1321,7 +1321,7 @@ function link(){
     var name = document.getElementById("export_name")
     var out_name, share_export
     var output = document.getElementById("export")
-    var links = "shervain123.github.io/gndatabase?"
+    var links = "lkro13.github.io/gndatabase?"
 
     if(cha == "" || cha == null) cha = ""
     if(wea == "" || wea == null) wea = ""
@@ -1482,7 +1482,7 @@ var succ_time = 0
 var countDownDate 
   function gettime() {
     var rawFile = new XMLHttpRequest();
-    rawFile.open("GET", "https://shervain123.github.io/gndatabase/time.txt", true);
+    rawFile.open("GET", "https://lkro13.github.io/gndatabase/time.txt", true);
     rawFile.onreadystatechange = function() {
       if (rawFile.readyState === 4) {
         var allText = rawFile.responseText;
