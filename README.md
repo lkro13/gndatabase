@@ -9,6 +9,6 @@ i might try to update it but please don't expect i will always be up to date
 anyone wants to help me feel free to do so but you will have to figure out the files
 
 # gndatabase
-github pages for https://shervain123.github.io/gndatabase a fan-made genshin database
+github pages for gndatabase a fan-made genshin database
 # Our domain got remove
 lol
